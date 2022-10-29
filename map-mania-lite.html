@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Map Mania Lite - BB</title>
+        <link rel="stylesheet" href="map-mania-lite.ccc">
+        <script src="map-mania-lite.js"></script>
+        <style>
+            #myMapID {
+                height: 100%;
+                width: 100%;
+            }
+
+            html, body {
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body onload="initApplication()">
+        <h1>Map Mania Lite v1.0</h1>
+
+        <div id="myMapID"></div>
+
+        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBnKiSdnnNtbzuTJRzEM5m2xeh7UHyVa-g&callback=initMap"
+            async defer>
+        </script>
+    </body>
